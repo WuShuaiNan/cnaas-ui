@@ -1,3 +1,3 @@
-# cnaas-webapi
+# cnaas-ui
 
-该项目提供restful风格的http接口，以供不同的客户端调用。
+校园网应用分析平台UI界面
