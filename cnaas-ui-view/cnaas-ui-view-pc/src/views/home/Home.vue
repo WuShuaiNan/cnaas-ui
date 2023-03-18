@@ -11,16 +11,12 @@
           <el-col :span="12">
             <p class="header-title">校园网络应用分析系统</p>
           </el-col>
-          <!--     通知     -->
-          <el-col :span="4">
+          <!--     用户信息     -->
+          <el-col :span="8">
             <el-breadcrumb separator="|" style="line-height: 50px">
               <el-breadcrumb-item>
-                <el-button
-                  type="text"
-                  icon="el-icon-lock"
-                  style="color: white"
-                >
-                  通知
+                <el-button type="text" icon="el-icon-user" style="color: white">
+                  你好，{{accountId}}
                 </el-button>
               </el-breadcrumb-item>
               <el-breadcrumb-item>
@@ -30,16 +26,6 @@
                   style="color: white"
                 >
                   帮助
-                </el-button>
-              </el-breadcrumb-item>
-            </el-breadcrumb>
-          </el-col>
-          <!--     用户信息     -->
-          <el-col :span="4">
-            <el-breadcrumb separator="|" style="line-height: 50px">
-              <el-breadcrumb-item>
-                <el-button type="text" icon="el-icon-user" style="color: white">
-                  你好，{{accountId}}
                 </el-button>
               </el-breadcrumb-item>
               <el-breadcrumb-item>
