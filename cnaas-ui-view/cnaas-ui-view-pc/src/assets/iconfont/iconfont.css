@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3842765 */
+  src: url('iconfont.woff2?t=1672212545623') format('woff2'),
+       url('iconfont.woff?t=1672212545623') format('woff'),
+       url('iconfont.ttf?t=1672212545623') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.el-icon-task-alarm:before {
+  content: "\ffdf";
+}
+
+.el-icon-operate-partial-maximize:before {
+  content: "\fffe";
+}
+
+.el-icon-task-pred-analyse:before {
+  content: "\ffdc";
+}
+
+.el-icon-view-right:before {
+  content: "\ffeb";
+}
+
+.el-icon-view-back:before {
+  content: "\ffed";
+}
+
+.el-icon-top-bottom:before {
+  content: "\ffe9";
+}
+
+.el-icon-view-top:before {
+  content: "\ffea";
+}
+
+.el-icon-view-front:before {
+  content: "\ffee";
+}
+
+.el-icon-view-left:before {
+  content: "\ffec";
+}
+
+.el-icon-view-direction:before {
+  content: "\ffef";
+}
+
+.el-icon-view-perspective:before {
+  content: "\ffe7";
+}
+
+.el-icon-operate-global-maximize:before {
+  content: "\fffc";
+}
+
+.el-icon-task-manual:before {
+  content: "\ffda";
+}
+
+.el-icon-task-repair-order:before {
+  content: "\ffde";
+}
+
+.el-icon-view-axonometric:before {
+  content: "\ffe8";
+}
+
+.el-icon-operate-global-minimize-copy:before {
+  content: "\fffd";
+}
+
+.el-icon-operate-partial-minimize:before {
+  content: "\ffff";
+}
+
+.el-icon-task-repair-audit:before {
+  content: "\ffdd";
+}
+
+.el-icon-task-poichk:before {
+  content: "\ffdb";
+}
+
+.el-icon-file-doc:before {
+  content: "\ffce";
+}
+
+.el-icon-file-gif:before {
+  content: "\ffca";
+}
+
+.el-icon-file-pdf:before {
+  content: "\ffc9";
+}
+
+.el-icon-file-ppt:before {
+  content: "\ffcd";
+}
+
+.el-icon-file-png:before {
+  content: "\ffcb";
+}
+
+.el-icon-file-txt:before {
+  content: "\ffc8";
+}
+
+.el-icon-file-jpg:before {
+  content: "\ffcc";
+}
+
+.el-icon-file-unknown:before {
+  content: "\ffc7";
+}
+
+.el-icon-file-xls:before {
+  content: "\ffcf";
+}
+
+.el-icon-shixindiqiu:before {
+  content: "\ffd7";
+}
+
