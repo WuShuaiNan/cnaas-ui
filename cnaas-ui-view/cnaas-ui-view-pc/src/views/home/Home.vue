@@ -107,7 +107,7 @@
 import SystemMenu from '@/views/home/SystemMenu.vue';
 import ChartMenu from '@/views/home/ChartMenu.vue';
 
-import logo from '@/assets/img/home/jierLogo.png';
+import logo from '@/assets/img/home/logo.png';
 
 import { logout, postpone } from '@/api/acckeeper/account';
 
