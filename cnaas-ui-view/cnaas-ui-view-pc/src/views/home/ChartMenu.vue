@@ -70,6 +70,16 @@
           <span>访问区域分析</span>
         </template>
       </el-menu-item>
+      <!-- 访问流量分析 -->
+      <el-menu-item
+        index="/home/charts/flow-analysis"
+        @click="selectMenu('/home/charts/flow-analysis', '访问流量分析')"
+      >
+        <template slot="title">
+          <i class="el-icon-pie-chart" style="color: black"/>
+          <span>访问流量分析</span>
+        </template>
+      </el-menu-item>
     </el-submenu>
   </div>
 </template>

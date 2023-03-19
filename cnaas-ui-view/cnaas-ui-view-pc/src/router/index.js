@@ -49,6 +49,10 @@ const routes = [
         component: () => import('@/views/charts/AreaAnalysis.vue'),
       }, // 访问地区分析
       {
+        path: 'charts/flow-analysis',
+        component: () => import('@/views/charts/FlowAnalysis.vue'),
+      }, // 访问流量分析
+      {
         path: 'system/user-manager',
         component: () => import('@/views/system/userManager/UserManager'),
       }, // 用户管理
