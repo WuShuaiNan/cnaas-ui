@@ -26,15 +26,30 @@
         </template>
       </el-menu-item>
       <!-- 异常行为挖掘 -->
-      <el-menu-item
-        index="/home/charts/abnormal-behavior"
-        @click="selectMenu('/home/charts/abnormal-behavior', '异常行为挖掘')"
-      >
+      <el-submenu index="/home/charts/abnormal-behavior">
         <template slot="title">
           <i class="el-icon-search" style="color: black"/>
           <span>异常行为挖掘</span>
         </template>
-      </el-menu-item>
+        <el-menu-item
+          index="/home/charts/abnormal-behavior/game"
+          @click="selectMenu('/home/charts/abnormal-behavior/game', '网络游戏类')"
+        >
+          <template slot="title">
+            <i class="el-icon-trophy" style="color: black"/>
+            <span>网络游戏类</span>
+          </template>
+        </el-menu-item>
+        <el-menu-item
+          index="/home/charts/abnormal-behavior/credit"
+          @click="selectMenu('/home/charts/abnormal-behavior/credit', '校园网贷类')"
+        >
+          <template slot="title">
+            <i class="el-icon-bank-card" style="color: black"/>
+            <span>校园网贷类</span>
+          </template>
+        </el-menu-item>
+      </el-submenu>
       <!-- 访问时段分析 -->
       <el-menu-item
         index="/home/charts/time-span-analysis"

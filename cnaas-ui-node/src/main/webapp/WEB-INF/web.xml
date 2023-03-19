@@ -3,7 +3,7 @@
          version="3.0">
 
     <!--定义了WEB应用的名字-->
-    <display-name>cnaas-webapi</display-name>
+    <display-name>cnaas-ui</display-name>
 
     <!-- 页面编码拦截器 -->
     <filter>

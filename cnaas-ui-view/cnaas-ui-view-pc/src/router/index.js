@@ -33,9 +33,13 @@ const routes = [
         component: () => import('@/views/charts/ColonyAnalysis.vue'),
       }, // 访问群体分析
       {
-        path: 'charts/abnormal-behavior',
-        component: () => import('@/views/charts/AbnormalBehavior.vue'),
-      }, // 异常行为挖掘
+        path: 'charts/abnormal-behavior/game',
+        component: () => import('@/views/charts/abnormalBehavior/Game.vue'),
+      }, // 异常行为挖掘(网络游戏类)
+      {
+        path: 'charts/abnormal-behavior/credit',
+        component: () => import('@/views/charts/abnormalBehavior/Credit.vue'),
+      }, // 异常行为挖掘(校园网贷类)
       {
         path: 'charts/time-span-analysis',
         component: () => import('@/views/charts/TimeSpanAnalysis.vue'),
